@@ -25,20 +25,21 @@ p {
 }
 
 button {
-  display: block;
   inline-size: 100%;
-  padding-block: 12px;
-  padding-inline: 16px;
-  margin-block: 30px;
-  border-radius: 8px;
   border: 0;
-  background: white;
 }
 
 a {
+  display: block;
+  margin-block: 30px;
+  padding-block: 12px;
+  padding-inline: 16px;
+  border-radius: 8px;
   text-decoration: none;
   color: #3A3539;
+  background: white;
   text-transform: uppercase;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
